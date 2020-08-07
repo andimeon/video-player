@@ -4,6 +4,8 @@
 
 Построен на базе библиотеки [Playable](https://wix.github.io/playable/).
 
+Опубликован на Github Pages [Video Player](https://andimeon.github.io/video-player/)
+
 ## Запуск на локальном компьютере
 
 Посмотреть плеер можно 2-мя способами:
