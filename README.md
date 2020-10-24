@@ -1,37 +1,33 @@
-# Простой видеоплеер
+# Simple video player
 
 ![screenshot](screenshots/screenshot.png)
 
-Построен на базе библиотеки [Playable](https://wix.github.io/playable/).
+Implemented based on the library [Playable](https://wix.github.io/playable/).
 
-Опубликован на Github Pages [Video Player](https://andimeon.github.io/video-player/)
+Published on the Github Pages [Video Player](https://andimeon.github.io/video-player/)
 
-## Запуск на локальном компьютере
+## Get started
 
-Посмотреть плеер можно 2-мя способами:
+There are 2 ways to see how the video player working in the local computer:
 
-1 С помощью запуска локального сервера. Используйте `pip` для установки зависимостей:
+1 Launch local server. All dependencies installed from `pip install -r requirements.txt`:
 
-```bash
-pip install -r requirements.txt
-```
-
-Запуск сервера осуществляется из командной строки:
+The server launch from command line (or terminal):
 
 ```bash
-python3 server.py
+livereload dist
 ```
 
-Благодаря подключенной библиотеки `livereload` сохраненные изменения в `index.html` сразу отображаются в браузере.
+Due to the `livereload` library all changes in `index.html` displayed in a browser immediately.
 
-2. Открыть страницу напрямую в браузере:
+2 Open the page directly in a browser
 
-Правой клавишей мыши щелкнуть на `index.html` и открыть в браузере.
+Click right mouse button on `index.html` and open in your browser.
 
-## Пример работы плеера
+## Example of the video player working
 
-![пример работы](screenshots/video_player.gif)
+![example](screenshots/video_player.gif)
 
-## Цель проекта
+## Motivation
 
-Код написан в образовательных целях на онлайн-курсе для веб-разработчиков [dvmn.org](https://dvmn.org/).
+This project was created as part of online course for web developer [dvmn.org](https://dvmn.org/).
