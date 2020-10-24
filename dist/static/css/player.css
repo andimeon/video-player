@@ -1,4 +1,4 @@
-button {
+.player-button {
     color: white;
     border-style: none;
     background-color: transparent;
@@ -9,7 +9,7 @@ button {
     width: 20px;
 }
 
-#rectangle {
+.button-place {
   width: auto;
   height: 30px;
   background-color: black;
@@ -17,14 +17,16 @@ button {
   display: flex;
 }
 
-#player {
+.player-base {
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.712);
   display: flex;
   flex-direction: column;
-  margin: 0 auto
+  margin: 0 auto;
+  width: 800px;
+  height: 600px;
 }
 
-.space {
+.button-space {
   display: inline-block;
   flex: 1;
 }
