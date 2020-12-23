@@ -43,3 +43,17 @@
   display: inline-block;
   flex: 1;
 }
+
+.js-current-time {
+  color: white;
+  margin-left: 6px;
+  margin-right: 12px;
+  margin-top: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.js-duration {
+  color: white; 
+  font-family: 'Roboto', sans-serif;
+  margin-top: 16px;
+}
