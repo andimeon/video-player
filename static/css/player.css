@@ -8,6 +8,7 @@
     margin-right: 9px;
     margin-left: 6px;
     width: 20px;
+    outline: none;
 }
 
 .full-screen-button {
@@ -20,6 +21,7 @@
   margin-right: 13px;
   margin-left: 4px;
   width: 20px;
+  outline: none;
 }
 
 .button-place {
