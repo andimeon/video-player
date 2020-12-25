@@ -1,6 +1,6 @@
 # Simple video player
 
-![screenshot](screenshots/screenshot.png)
+![screenshot](screenshots/Screenshot_player_new.png)
 
 Implemented based on the library [Playable](https://wix.github.io/playable/).
 
