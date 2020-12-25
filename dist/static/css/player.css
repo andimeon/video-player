@@ -84,4 +84,14 @@
   border-color: white;
   margin-top: 5px;
   margin-left: -8px;
+  opacity: 0;
+  transition-property: all;
+  transition-duration: .3s;
+  transition-timing-function: ease-in;
+}
+
+.js-progress:hover .dot {
+  opacity: 6;
+  transition-duration: .3s;
+  transition-timing-function: ease-out;
 }
